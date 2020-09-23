@@ -1,0 +1,277 @@
+body{
+    font-family: serif;
+}
+.navbar{
+    text-align: center;
+    padding-top: 2.5em;
+}
+.nav-link , .navbar-brand{
+    color: #f4f4f4;
+    cursor: pointer;
+}
+.logo h2{
+    color: #f1cdb3;
+    margin: 0;
+}
+.logo p{
+    font-size: 0.813em!important;
+    margin: 0;
+}
+.nav-link{
+    margin-right: 1em !important;
+    font-size: 0.938em;
+}
+.nav-link:after {
+    background-color: #f1cdb3;
+    border-radius: 2px;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0;
+}
+.nav-link:hover:after, a:focus:after {
+    width: 100%;
+}
+a:hover{
+    color: white;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar-toggler{
+    background: #f1cdb3 !important;
+}
+
+.page0{
+    background-image: url("../img/Background(4).png");
+    background-size: cover;
+    background-position:  center;
+}
+
+.page0 .container{
+    text-align: left;
+}
+.page0 .text{
+    color: white;
+    padding: 15% 5%;
+
+}
+.page0 .text p{
+    margin-bottom: 4em;
+}
+.page0 .text button{
+    background: #f1cdb3;
+    font-size: 1em;
+    width: 12.7em;
+    height: 3.2em;
+    border-radius: 2em;
+}
+.page0 .text button:hover{
+    background-color: #fddcc4;
+}
+button:focus{
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+
+
+
+.page1 .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page1 .container{
+    padding-top: 5em;
+    padding-bottom: 5.2em;
+}
+
+
+
+
+
+.page2{
+    background: #f6f6f6;
+    text-align: center;
+}
+.page2 h2{
+    padding: 2.2em 0;
+}
+.page2 .container{
+    padding-bottom: 4em;
+}
+.page2 .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3.2em;
+}
+.page2 .pet{
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    position: relative;
+}
+.page2 .pet:hover{
+    filter: drop-shadow(0px 2px 17px rgba(13,13,13,0.04));
+}
+.page2 .pet .text_button{
+    position: absolute;
+    bottom: 2.1em;
+    left: 1.86em;
+    right: 1.86em;
+}
+.page2 .button-little{
+    background: none;
+    border: 2px solid #f1cdb3;
+    font-size: 1em;
+    width: 11.75em;
+    height: 3.2em;
+    border-radius: 2em;
+}
+.page2 .button-little:hover{
+    background-color: #f1cdb3;
+}
+
+.page2 button{
+    border: 0;
+    border-radius: 25px;
+    background: #f6f6f6;
+    padding: 0;
+}
+button:hover{
+    background:  #f1cdb3;
+}
+button, button:active, button:focus {
+    outline: none;
+}
+
+.page2 a{
+    background: none;
+    border: 2px solid #f1cdb3;
+    color: black;
+    font-size: 1em;
+    border-radius: 2em;
+    padding: 0.9em 4em;
+}
+.page2 a:hover{
+    background-color: #f1cdb3;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+.page3{
+    text-align: center;
+}
+.page3 h2{
+    padding: 2.2em 0;
+    margin: 0;
+}
+.page3 .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page3 .help-item{
+    text-align: center;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 2.2em;
+}
+.page3 .help-item h5{
+    margin-bottom: 0;
+    margin-top: 1em;
+}
+
+
+.col-lg-5th{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media (min-width: 992px) {
+    .col-lg-5th {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+
+
+
+
+.page4{
+    background: #f6f6f6;
+}
+.page4 .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page4 .container{
+    padding: 3em 0;
+}
+.page4 .image{
+    margin-right: 2em;
+}
+.page4 .bank_heading{
+    font-size: 1em;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.page4 .credit_card{
+    background: #f1cdb3;
+    display: inline-block;
+    padding: 0.5em;
+    border-radius: 9px;
+    margin-bottom: 1em;
+}
+.page4 .credit_card img{
+    float: left;
+    margin-right: 10px;
+}
+.page4 .bank_info{
+    font-size: 0.75em;
+    font-style: italic;
+    color: #b2b2b2;
+}
+
+
+
+
+
+.page5{
+    background-image: url("../img/Слой 3.png");
+    background-size: cover;
+    background-position:  center;
+}
+.page5 .container{
+    padding-top: 2em;
+}
+.page5 .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.page5 .info img{
+    float: left;
+    margin-right: 20px;
+}
+.page5 h2{
+    color: white;
+    margin-bottom: 1em;
+}
+.page5 h5{
+    color: #f1cdb3;
+    margin-bottom: 1.3em;
+}
+.page5 .info-img{
+    text-align: center;
+}
