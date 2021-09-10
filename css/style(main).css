@@ -4,8 +4,6 @@ body{
 .navbar{
     text-align: center;
     padding-top: 2.5em;
-    position: relative;
-    z-index: 2;
 }
 .nav-link , .navbar-brand{
     color: #f4f4f4;
