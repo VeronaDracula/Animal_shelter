@@ -4,6 +4,8 @@ body{
 .navbar{
     text-align: center;
     padding-top: 2.5em;
+    position: relative;
+    z-index: 2;
 }
 .nav-link , .navbar-brand{
     color: #f4f4f4;
@@ -17,8 +19,18 @@ body{
     font-size: 0.813em!important;
     margin: 0;
 }
-.nav-link{
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
     margin-right: 1em !important;
+    max-width: 140px;
+}
+
+.nav-link{
     font-size: 0.938em;
 }
 .nav-link:after {
